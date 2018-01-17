@@ -1,0 +1,244 @@
+body {
+  /*background-color: blue;*/
+  background-image: url("../images/topography.png");
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  border-bottom: thick solid black; 
+  border-color: #cccccc;
+
+} 
+.topHeaderLeft,
+.topHeaderRight {
+  height: 70px;
+  line-height: 70px;
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  
+  
+}
+  
+.topHeaderLeft {
+  color: white;
+  float: left;
+  width: 20%;
+  background-color: #4aaaa5;
+  margin-left: 40px;
+  
+} 
+
+.topHeaderRight {
+  float: right;
+  font: red;
+  text-align: right;
+  margin-right: 200px;
+}
+
+.connectWithMe, .leftBox {
+  position: relative;
+  background: white;
+  border-color: #dddddd; 
+  padding: 20px;
+  margin-left: 40px;
+  top: 20px;
+
+}
+
+.connectWithMe {
+  
+  right: 200px;
+  float: right;
+  width: 20%;
+
+}
+
+.connectWithMePics1, .connectWithMePics2, .connectWithMePics3 {
+  width: 50px;
+  height: 50px;
+}
+
+.leftBox {
+  
+  float: left;
+  width: 40%;
+}
+
+h1, h2, form, input[type="submit"] {
+
+  font-family: 'Georgia', Times, Times New Roman, serif; 
+  
+}
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  color:#4aaaa5;
+  font-size: 200%;
+
+}
+
+p {
+  color:#777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 150%;
+
+}
+
+footer {
+  background-color: #666666;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+
+}
+
+hr {
+  border-top: 3px double #8c8b8b;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: #4aaaa5;
+  border: 0;
+  padding: 2px 10px 2px 10px;
+  box-shadow: none;
+  border-radius: 0px;
+
+}
+.davidProfile img {
+    max-width: 100%;
+    height: auto;
+}
+.davidProfile {
+  width: 30%;
+  height: 250px;
+  float: left;
+  margin-right: 20px;
+}
+.davidProfilePara {
+  margin-right: 30px;
+  line-height: 130%;
+}
+
+.image-container {
+  position: relative;
+  float: left;
+  margin: 30px;
+}
+
+.image-container p {
+  position: absolute;
+  font-size: 150%;
+  color: white;
+  background-color: #4aaaa5;
+  top: 50%;
+  
+  width: 100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media screen and (max-width: 980px) {
+  .topHeaderRight {
+    margin-right: 0px;
+  }
+  .leftBox {
+    width: 33%;
+  }
+  .davidProfile {
+    margin: auto;
+    width: 100%;
+  }
+  .davidProfilePara {
+    float: left;
+  }
+  .connectWithMe {
+    right: 50px;
+    width: 30%;
+  
+  } 
+  input[name="message"] {
+      height: 200px;
+}
+@media screen and (max-width: 768px) {
+  
+  .topHeaderLeft, .topHeaderRight {
+    margin: 0px;
+  }
+  .leftBox {
+    width: 80%;
+    margin-left: 20px;
+
+  }
+  .davidProfile {
+    padding-left: 100px;
+    width: 50%;
+  }
+  .davidProfilePara {
+    float: left;
+  }
+  .connectWithMe {
+    float: left;
+    right: 0px;
+    width: 40%;
+    margin: 20px 0px 20px 20px;
+    padding: 0px;
+
+  } 
+}
+@media screen and (max-width: 640px) {
+  
+  .topHeaderLeft,
+  .topHeaderRight {
+    padding: 0px;
+    width: 100%;
+    
+    text-align: center;
+  
+  }
+  .leftBox {
+    padding: 0px;
+    margin: 0px 20px 0px 20px;
+    left: 0px;
+  } 
+  .connectWithMe {
+    padding: 0px;
+    margin: 20px 20px 60px 20px;
+    left: 0px;
+    width: 75%;
+
+  } 
+  
+  
+}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+
+
